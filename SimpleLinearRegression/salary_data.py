@@ -28,3 +28,5 @@ plt.xlabel('Years of Experience')
 plt.ylabel('Salary')
 #visualization
 plt.show()
+#predicting salary for 15 years of experience
+print(regressor.predict([[15]]))
